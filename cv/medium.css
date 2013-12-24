@@ -1,0 +1,351 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#transitionAccueil{
+    position: relative;
+    height: 145px;
+    background:transparent url(img/transitionHaut.png) left top no-repeat;
+    margin-top: -90px;
+    margin-bottom: -80px;
+
+}
+#transitionExperienceH{
+    position: relative;
+    height: 145px;
+    background:transparent url(img/transitionBasSym.png) top left no-repeat;
+    background-position:100%;
+    margin-top: 0;
+    margin-bottom: -68px;
+    z-index: 500;
+
+}
+#transitionExperienceB{
+    position: relative;
+    height: 145px;
+    background:transparent url(img/transitionHaut.png) top left no-repeat;
+    background-position:100%;
+    margin-top: -145px;
+    margin-bottom: 0px;
+
+}
+#transitionCompetence{
+    position: relative;
+    height: 145px;
+    background:transparent url(img/transitionBasSym.png) top left no-repeat;
+    background-position:100%;
+    margin-top: -70px;
+    margin-bottom: -70px;
+
+}
+#trContact{
+    position: relative;
+    height: 145px;
+    background:transparent url(img/trContact.png) top left no-repeat;
+    background-position:100%;
+    margin-top: -70px;
+    margin-bottom: -75px;
+}
+#trFooter{
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    background:url(texture.jpg);
+    background-color:black;
+
+}
+
+/************** MENU **************/
+#nav{
+        list-style: none;
+        position: fixed;
+        left: 10px;
+        top: 10px;
+        z-index: 5000;
+}
+
+h1#menuName{
+        position: relative;
+        background-color: rgba(200, 50, 0, 1);
+		width: 200px;
+        height: 50px;
+        line-height:50px;
+        text-align: center;
+        color:white;
+        font-family: 'Wire One', sans-serif;
+		font-size: 2.5em;
+        font-weight:100;
+        font-style:normal;
+        padding:0;
+        margin:0;
+}
+h1#menuName a{
+	text-decoration: none;
+    color:white;
+    }
+ul#menuContent{
+	    position: relative;
+		width:200px;
+		list-style-type: none;
+
+}
+ul#menuContent li{
+	    position: relative;
+		background-color: rgba(0, 0, 0, 0.9);
+		margin-top:10px;
+}
+ul#menuContent li a{
+	    display: block;
+		height: 30px;
+		line-height: 30px;
+		font-family: 'helvetica_neue_lt_std37ThCn';
+        font-weight:100;
+        font-size: 1em;
+        font-style:normal;
+        padding-left:32px;
+        margin:0;
+        color:silver;
+        text-decoration:none;
+
+
+}
+ul#menuContent li a:hover{
+		color:white;
+		background-color: rgba(200, 50, 0, 0.7);
+
+}
+#titre{
+        position:relative;
+        font-family: 'helvetica_neue_lt_std37ThCn';
+        font-weight:500;
+        font-size: 1.7em;
+        font-style:normal;
+        padding:0;
+        margin:0;
+        color: white;
+        letter-spacing: 0.05em;
+        top:20px;
+        padding-left:230px;
+        text-shadow:0px 0px 5px #000
+
+}
+/************** ACCUEIL **************/
+#intro{
+        width: 100%;
+        background:black url(img/accueil.jpg) center 0 no-repeat fixed;
+        color: white;
+        height: 650px;
+        margin: 0 auto;
+        padding: 0;
+		box-sizing:border-box;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+
+}
+/************** FORMATION **************/
+#formations{
+       
+       /* background: url(formations.jpg) 50% 0 no-repeat fixed; */
+        background:transparent url(img/fondGris.png);
+        color: white;
+        height: 600px;
+        margin: 0 auto;
+        overflow: hidden;
+        padding:0;
+        box-sizing:border-box;
+}
+article{
+	position:relative;
+	left:230px;
+	top:62px;
+	box-sizing:border-box;
+	width: 550px;
+	
+}
+article h2{
+		position: relative;
+		color: rgba(200, 50, 0, 1);
+        font-family: 'Wire One', sans-serif;
+		font-size: 2.5em;
+        font-weight:900;
+        font-style:normal;
+        margin:0 0 -10px 0;
+        padding:0;
+        z-index: 1000;
+        letter-spacing: 0.02em;
+}
+article h3{
+        font-family: 'helvetica_neue_lt_std37ThCn';
+        font-weight:100;
+        font-size: 1.3em;
+        font-style:normal;
+        margin:0 0 5px 0;
+        color:white;
+        letter-spacing: 0.02em;
+}
+
+article p{
+	margin-bottom: 20px;
+}
+hr{
+	margin: 20px 0 20px 0;
+	border-top: 1px solid rgba(200, 50, 0, 0.2);
+    border-bottom:none;
+    border-left:none;
+    border-right:none;
+	clear: both;
+    height: 1px;
+}
+.red{color:rgba(200, 50, 0, 0.9);}
+.small{
+	font-size: 0.8em !important;
+}
+.left{ 
+	position: absolute;
+	width: 235px;
+	height: 720px;
+	box-sizing:border-box;
+	margin:0 20px 0 0;
+}
+.right{ 
+	position: relative;
+	left:285px;
+	width: 235px;
+	height: 720px;
+	box-sizing:border-box;
+	margin:0 20px 0 0;
+}
+.left ul,.right ul{
+	margin:0px 0 20px 0;
+}
+/************** EXPERIENCE **************/
+#experiences{
+        position: relative;
+        background: url(img/experiences.jpg) 50% 0 no-repeat fixed;
+        color: white;
+        height: 1100px;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 0;
+        -webkit-background-size: cover; /* pour Chrome et Safari */
+        -moz-background-size: cover; /* pour Firefox */
+        -o-background-size: cover; /* pour Opera */
+        background-size: cover; /* version standardisée */
+        box-sizing:border-box;
+
+}
+
+aside{
+	box-sizing:border-box;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding:20px 10px 10px 20px;
+	margin:0 0 10px 0;
+}
+aside ul li{
+	    font-family: 'helvetica_neue_lt_std37ThCn';
+        font-weight:100;
+        font-size: 0.9em;
+        font-style:normal;
+        padding:0;
+        margin:0;
+        color:silver;
+        margin:0 0 0 20px;
+
+}
+
+/************** COMPETENCES **************/
+#competences{
+        background:transparent url(img/fondGris.png);
+        color: white;
+        height: 900px;
+        margin: 0 auto;
+        /*overflow: hidden;*/
+        padding: 0;
+        -webkit-background-size: cover; /* pour Chrome et Safari */
+ 		-moz-background-size: cover; /* pour Firefox */
+  		-o-background-size: cover; /* pour Opera */
+  		background-size: cover; /* version standardisée */
+        box-sizing:border-box;
+}
+/************** LOISIRS **************/
+#loisirs{
+        background: url(img/loisirs.jpg) 50% 0 no-repeat fixed;
+        color: white;
+        height: 1200px;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 0;
+        -webkit-background-size: cover; /* pour Chrome et Safari */
+ 		-moz-background-size: cover; /* pour Firefox */
+  		-o-background-size: cover; /* pour Opera */
+  		background-size: cover; /* version standardisée */
+        box-sizing:border-box;
+}
+
+/************** CONTACT **************/
+#contact{
+        background: url(img/contact.jpg) left 0 no-repeat fixed;
+        color: white;
+        height: 1200px;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 0;
+        -webkit-background-size: cover; /* pour Chrome et Safari */
+ 		-moz-background-size: cover; /* pour Firefox */
+  		-o-background-size: cover; /* pour Opera */
+  		background-size: cover; /* version standardisée */
+        box-sizing:border-box;
+
+
+}
+#footer{
+        background-color:black;
+        color: white;
+        height: 0px;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 0;
+        position: relative;
+
+        
+
+         }
+#trFooter h2{
+    display:inline;
+    color:silver;
+    font-family: 'Wire One', sans-serif;
+    font-size: 1.4em;
+    font-weight:100;
+    font-style:normal;
+    left:20px;
+    position: relative;
+    margin-right:20px;
+    padding: 0;
+
+}
+#trFooter p{
+
+    top:0px;
+    display:inline;
+    color:grey;
+    font-family: 'Wire One', sans-serif;
+    font-size: 1em;
+    font-weight:100;
+    font-style:normal;
+    margin:0 0 0 10px;
+    letter-spacing: 0.08em;
+    position: relative;
+
+}
+#trFooter p a{
+    text-decoration: none;
+    color:grey;
+}
+#trFooter p a:hover{
+    text-decoration: none;
+    color:rgba(200, 50, 0, 0.8);;
+}
+

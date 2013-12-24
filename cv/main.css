@@ -1,0 +1,235 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+        margin: 0;
+        padding: 0;
+}
+
+img{
+        border: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+	box-sizing:border-box;
+}
+p{
+        font-family: 'helvetica_neue_lt_std37ThCn';
+        font-weight:100;
+        font-size: 1em;
+        font-style:normal;
+        padding:0;
+        margin:0;
+        color:silver;
+        letter-spacing: 0.05em;
+}
+#fenetre{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background:rgba(50, 30, 0, 0.9) url(img/fond.png) top center repeat;
+    z-index: 20000;
+    visibility: hidden;
+}
+#titre{
+        position:relative;
+        font-family: 'helvetica_neue_lt_std37ThCn';
+        font-weight:900;
+        font-size: 2em;
+        font-style:normal;
+        padding:0;
+        margin:0;
+        color: white;
+        letter-spacing: 0.05em;
+        top:53px;
+        text-shadow:0px 0px 5px #000;
+}
+strong{
+    font-weight:900;
+}
+a{
+    color:silver;
+    text-decoration: none;
+}
+a:hover{
+    color:red;
+    text-decoration: none;
+}
+h1#menuName{
+        position: relative;
+        background-color: rgba(200, 50, 0, 1);
+        height: 70px;
+        line-height:70px;
+        text-align: center;
+        color:white;
+        font-family: 'Wire One', sans-serif;
+		font-size: 3em;
+        font-weight:100;
+        font-style:normal;
+        padding:0;
+        margin:0;
+}
+h1#menuName a{
+	text-decoration: none;
+    color:white;
+    }
+ul#menuContent{
+	    position: relative;
+
+		list-style-type: none;
+
+}
+ul#menuContent li{
+	    position: relative;
+		background-color: rgba(0, 0, 0, 0.9);
+		margin-top:10px;
+}
+ul#menuContent li a{
+	    display: block;
+		height: 30px;
+		line-height: 30px;
+		font-family: 'helvetica_neue_lt_std37ThCn';
+        font-weight:100;
+        font-size: 1em;
+        font-style:normal;
+        padding-left:32px;
+        margin:0;
+        color:silver;
+        text-decoration:none;
+        -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+        box-sizing: border-box;         /* Opera/IE 8+ */
+}
+ul#menuContent li a:hover{
+		color:white;
+		background-color: rgba(200, 50, 0, 0.7);
+        border-left: 5px solid red;
+}
+ul#menuContent li a:active{     
+        color:white;
+        background-color: rgba(200, 50, 0, 0.7);
+        border-left: 5px solid red;
+}
+
+article h2{
+		color: rgba(200, 50, 0, 1);
+        font-family: 'Wire One', sans-serif;
+		font-size: 3em;
+        font-weight:900;
+        font-style:normal;
+        margin:0 0 -10px 0;
+        padding:0;
+        z-index: 1000;
+        letter-spacing: 0.02em;
+}
+article h3{
+        font-family: 'helvetica_neue_lt_std37ThCn';
+        font-weight:100;
+        font-size: 1.5em;
+        font-style:normal;
+        margin:0 0 10px 0;
+        color:white;
+        letter-spacing: 0.02em;
+}
+
+article p{
+	margin-bottom: 20px;
+}
+hr{
+	margin: 20px 0 20px 0;
+	border-top: 1px solid rgba(200, 50, 0, 0.2);
+    border-bottom:none;
+    border-left:none;
+    border-right:none;
+	clear: both;
+    height: 1px;
+}
+.red{color:rgba(200, 50, 0, 0.9);}
+.small{
+	font-size: 0.8em !important;
+}
+
+
+aside{
+	box-sizing:border-box;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding:20px 10px 10px 20px;
+	margin:0 0 10px 0;
+}
+aside ul li{
+	    font-family: 'helvetica_neue_lt_std37ThCn';
+        font-weight:100;
+        font-size: 0.9em;
+        font-style:normal;
+        padding:0;
+        margin:0;
+        color:silver;
+        margin:0 0 0 20px;
+
+}
+.enumLoisirs{
+    position:relative;
+    top:-10px;
+}
+.enumLoisirs li:after {
+    content:  "☆";
+    position: absolute;
+    left: -1em;
+    width: 2em;
+    text-align: right;
+    color: red;
+}
+.enumLoisirs li{
+    letter-spacing: 0.03em;
+}
+.enumProfessional{
+    position:relative;
+    top:-10px;
+}
+.enumProfessional li:after {
+    content:  "☆";
+    position: absolute;
+    left: -1em;
+    width: 2em;
+    text-align: right;
+    color: red;
+}
+.enumProfessional li{
+    letter-spacing: 0.03em;
+}
+
+#trContact h2{
+	display: block;
+	color:silver;
+    font-family: 'Wire One', sans-serif;
+    font-weight:100;
+    font-style:normal;
+    position: relative;
+
+}
+#trContact p{
+	display:block;
+	color:grey;
+    font-family: 'Wire One', sans-serif;
+    font-weight:100;
+    font-style:normal;
+    letter-spacing: 0.08em;
+    position: relative;
+    top:-15px;
+    left:110px;
+}
+#trContact p a{
+	text-decoration: none;
+	color:grey;
+}
+#trContact p a:hover{
+	text-decoration: none;
+	color:rgba(200, 50, 0, 0.8);;
+}
+

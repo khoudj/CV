@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Laurent KHOUDJA</title>
+<link href="normalize.css" rel="stylesheet" type="text/css" />
+<link href='fonts.css' rel='stylesheet' type='text/css'>
+<link href="main.css" rel="stylesheet" type="text/css" />
+
+
+<link href="xlarge.css" rel="stylesheet" media="screen and (min-width: 1300px)"  type="text/css" />
+<link href="large.css" rel="stylesheet" media="(min-width: 1000px) and (max-width: 1299px)"  type="text/css" />
+<link href="medium.css" rel="stylesheet" media="(min-width: 800px) and (max-width: 999px)"  type="text/css" />
+<link href="small.css" rel="stylesheet" media="(min-width: 500px) and (max-width: 799px)"  type="text/css" />
+<link href="phone.css" rel="stylesheet" media="screen and (max-width: 499px)"  type="text/css" />
+
+<link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript">
+function phone(){
+	if($(window).width()<500){
+			$( "#nav" ).click(function() {
+				$( "li" ).first().toggle( "fast", function showNext() {
+				$( this ).next( "li" ).toggle( "fast", showNext );
+				});
+			});
+
+			$("#photo").show();
+			$("#menu").show();
+		}else{
+			$("#photo").hide();
+			$("#menu").hide();
+	}
+}
+$(document).ready(function(){
+	//alert($(window).width()+' '+$(window).height());
+	
+		$('a[href^="#"]').click(function(){  
+    	var the_id = $(this).attr("href");
+    	//var the_menu = $(this).parent().css("background-color", "red" ); 
+   	 	$('html, body').animate({  
+    	    scrollTop:$(the_id).offset().top  
+    	}, 'slow');  
+    	return false; 
+	}); 
+
+	phone();
+	if($(window).width()<500){	$($("ul#menuContent li")).hide(); }
+	
+}); // fin $(document).ready(function()
+
+$(window).resize(function() {
+        phone();
+        //console.log("recharge")
+        //console.log($(window).width()+' '+$(window).height())
+});
+</script>
+</head>
+
+<body id="top">
+<nav id="nav">
+    <h1 id="menuName"><a href="#top">Laurent KHOUDJA</a><a id="menu"><img src="img/menu.png" alt="menu" height="40" width="40"/></a></h1>
+		<ul id="menuContent">
+            <li id="menuFormations"><a href="#formations">Education</a></li>
+            <li id="menuExperiences"><a href="#experiences">Professional experience</a></li>
+            <li id="menuCompetences"><a href="#competences">Professional skills</a></li>
+            <li id="menuLoisirs"><a href="#loisirs">Personal skills &amp; hobbies</a></li>
+            <li id="menuContact"><a href="#contact">Contact</a></li>
+            <li id="menuLangue"><a href="index.html">Version française</a></li>
+     	</ul>
+</nav>
+<!--INTRO ##########################-->
+<section id="intro">
+	<h2 id="titre">Seeking employment as web/mobile project manager</h2>
+</section>
+<div id="transitionAccueil"></div>
+<!--FORMATION ##########################-->
+<section id="formations">
+    <article>
+    	<h2>Education</h2>
+    	<aside>
+	        <h3>Current: Produits et Services Multimédia (Master's degree in multimedia)</h3>
+	        <p><strong><a href="http://stgi.univ-fcomte.fr" target="_blank">UFR STGI</a><strong> - University of Franche-Comté (FR) - 2012 > 2014</p>
+	       	<hr />
+	       	<h3>6 months multimedia training</h3>
+	        <p><strong><a href="http://www.dgd-formation.asso.fr" target="_blank">DGD Formation</a></strong> (FR) - Vesoul - 1998</p>
+	       	<hr />
+	        <h3>Three-year specialized diploma in Methodology for Industrial Maintenance</h3>
+	        <p><strong><a href="http://stgi.univ-fcomte.fr" target="_blank">UFR STGI</a><strong> - Université de Franche Comté (FR) - 1995</p>
+			<hr />
+	        <h3>Two-year specialized diploma in Industrial Production Management and Mechanical</h3>
+			<p><strong><a href="http://www.iut-bm.univ-fcomte.fr/IUT" target="_blank">IUT Belfort Montbéliard</a></strong> - Belfort (FR) - 1992 > 1994</p>
+			<hr />
+			<h3>Level in Mechanical and Industrial Production Management</h3>
+			<p><strong><a href="http://www.lycee-follereau-belfort.fr/" target="_blank">Lycée Raoul Follereau</a></strong> - Belfort (FR) - 1992</p> 
+			<hr />
+		</aside>
+    </article>
+
+</section>
+<div id="transitionExperienceH"></div>
+<!--EXPERIENCE ##########################-->
+<section id="experiences">
+	<article>
+		<h2>Professional experience</h2>
+       	<aside>
+	       	<h3>2004 > 2011 : Webmaster, screen printing &amp; print</h3>
+	        <p>SERI90 - Belfort/Héricourt (FR) </p>
+	        	<ul class="enumProfessional">
+	        		<li>2007 > 2011 : permanent full time contract</li>
+	        		<li>2004 > 2007 : permanent part time contract</li>
+	        	</ul>
+	        <hr />
+	        <h3>2007 : Webmaster &amp; web-developer</h3>
+	        <p>GALLIOT.COM web agency - Besançon (FR)</p>
+	        	<ul class="enumProfessional">
+	        		<li>2007 : 5 months fixed-term part time contract</li>
+	        	</ul>
+	        <hr />
+	        <h3>2006 : Webmaster &amp; web-developer</h3>
+	        <p>VIVRE VITE non-profit organization - Cergy (FR)</p>
+	        <ul class="enumProfessional">
+	        		<li>2006 : 2 months fixed-term part time contract</li>
+	        	</ul>
+			<hr />
+	        <h3>2005 : Webmaster &amp; web-developer</h3>
+	        <p>GUR MUSIC shop - Belfort (FR)</p>
+	        <ul class="enumProfessional">
+	        		<li>2005 : 2 months fixed-term part time contract</li>
+	        	</ul>
+			<hr />
+	 		<h3>2001 > 2003 : Webmaster &amp; web-developer</h3>
+	        <p>MEDIATICS computer company - Belfort (FR)</p>
+	        <ul class="enumProfessional">
+	        		<li>2001 > 2003 : permanent part time contract</li>
+	        	</ul>
+			<hr />
+			<h3>1999 > 2003 : Webmaster, watch designer &amp; graphic designer</h3>
+	        <p>WEAL'S CONCEPT &amp; PRODUCTION watch company - Besançon (FR)</p>
+	        <ul class="enumProfessional">
+	        		<li>2001 > 2003 : permanent part time contract</li>
+	        	</ul>			
+			<hr />
+	    </aside>
+	</article>
+ </section>
+<div id="transitionExperienceB"></div>
+ <!--COMPETENCE ##########################-->
+<section id="competences">
+	<div class="transitionBas"></div>
+		<article>
+
+		<h2>Professional skills</h2>
+
+		<aside class="left">
+	       	<h3>Project management</h3>
+	        <ul>
+			    <li>AGILE method</li>
+			    <li>Specifications</li>
+			    <li>Design file</li>
+			    <li>Technical specifications</li>
+			    <li>Planning management</li>
+			    <li>Business model</li>
+			    <li>Communication strategy</li>
+			</ul>
+	       	<h3>Web development</h3>
+	        <ul>
+	        	<li><span class="red">★★★★</span>☆ Object-Oriented PHP</li>
+	        	<li><span class="red">★★★★</span>☆ MySQL/SQL</li>
+			    <li><span class="red">★★★★</span>☆ MVC model</li>
+			    <li><span class="red">★★★</span>☆☆ CodeIgniter PHP framework</li>
+				<li><span class="red">★</span>☆☆☆☆ Symfony2 PHP framework</li>
+			    <li><span class="red">★★★</span>☆☆ HTML5/CSS3</li>
+			    <li><span class="red">★★★</span>☆☆ Web/Javascript framework</li>
+			    <li><span class="red">★★★★</span>☆ Responsive Design</li>
+			    <li><span class="red">★★★</span>☆☆ SEO</li>
+			    
+			</ul>
+	       	<h3>Programming languages</h3>
+	        <ul>
+	        	<li><span class="red">★★</span>☆☆☆ JAVA</li>
+	        	<li><span class="red">★★★★</span>☆ Object-Oriented PHP</li>
+	        	<li><span class="red">★★★</span>☆☆ Objective-C / IOS 7</li>
+	        	<li><span class="red">★★</span>☆☆☆ Javascript</li>
+	        	<li><span class="red">★★</span>☆☆☆ Processing</li>
+				<li><span class="red">★</span>☆☆☆☆ AS3</li>
+			</ul>
+			<h3>Modeling</h3>
+	        <ul>
+		    	<li><span class="red">★★★★</span>☆ UML</li>
+			    <li><span class="red">★★★★</span>☆ MERISE method</li>
+			</ul>
+		</aside>
+
+		<aside class="right">
+	       	<h3>3DS Max</h3>
+	        <ul>
+	        	<li><span class="red">★★★★</span>☆ Modeling</li>
+				<li><span class="red">★★★</span>☆☆ Texturing</li>
+				<li><span class="red">★★★</span>☆☆ Lighting</li>
+				<li><span class="red">★★</span>☆☆☆ Rigging / skinning</li>
+				<li><span class="red">★★</span>☆☆☆ Animation </li>
+			</ul>
+
+	       	<h3>API</h3>
+	        <ul>
+	        	<li><span class="red">★★★</span>☆☆ Facebook</li>
+	        	<li><span class="red">★★</span>☆☆☆ Twitter</li>
+	        	<li><span class="red">★★</span>☆☆☆ LastFM</li>
+	        	<li><span class="red">★★★★</span>☆ Web-Services</li>
+			</ul>
+
+	       	<h3>Desktop publishing</h3>
+	        <ul>
+	        	<li><span class="red">★★★★★</span> Photoshop</li>
+	        	<li><span class="red">★★★★★</span> Illustrator</li>
+	        	<li><span class="red">★★★</span>☆☆ InDesign</li>
+			</ul>
+
+	       	<h3>Versionning / tests</h3>
+	        <ul>
+	        	<li><span class="red">★★★</span>☆☆ GIT</li>
+	        	<li><span class="red">★★★</span>☆☆ GitHub</li>
+	        	<li><span class="red">★★★</span>☆☆ Tests</li>
+			</ul>
+
+			<h3>Miscellaneous</h3>
+	        <ul>
+	        	<li><span class="red">★★</span>☆☆☆ Bach/MakeFile</li>
+	        	<li><span class="red">★★★★★</span> Documentation</li>
+	        	<li><span class="red">★★★★</span>☆ Transmedia</li>
+	        	<li><span class="red">★★★</span>☆☆ Ergonomics</li>
+	        	<li><span class="red">★</span>☆☆☆☆ Semantic Web / Web 3.0</li>
+			</ul>
+		</aside>
+	</article>
+
+ </section>
+	<div id="transitionCompetence"></div>
+  <!--LOISIR ##########################-->
+<section id="loisirs">
+	<article>
+		<h2>Personal skills &amp; hobbies</h2>
+    	<aside>
+    		<h3>IT</h3>
+	        <p></p>
+	<ul class="enumLoisirs">	
+		<li>Learning new languages and technologies</li>
+		<li>Implementing web &amp; mobile applications</li>
+	</ul>
+	       	<hr />
+	        <h3>Volunteer for "Impetus" festival</h3>
+	        <p>Music festival : <strong>Impetus</strong> (<a href="http://www.impetusfestival.com" target="_blank" >www.impetusfestival.com</a>) - FR <br />
+	        Cross platform tools (web/mobile), car-sharing and communication development based on Facebook API and  car-sharing solution given by <strong>Share And Move Solutions</strong> (<a href="http://www.shareandmove.fr" target="_blank" >www.shareandmove.fr</a>)</p>
+	<ul class="enumLoisirs">
+		<li>Web services mashup</li>
+		<li>IOS &amp; Android mobile application</li>
+		<li>Business model</li>
+		<li>Communication strategy</li>
+	</ul>
+<p><a href="http://www.impetuscommunity.com" target="_blank" >www.impetuscommunity.com</a></p>
+	       	<hr />
+	       	<h3>Volunteer for "Le MOLOCO"</h3>
+	        <p>Concert hall : <strong>"Le Moloco"</strong> in Audincourt - FR<br />
+	           1 year &amp; a half ongoing > <a href="http://www.lemoloco.com" target="_blank" >www.lemoloco.com</a></p>
+	<ul class="enumLoisirs">	
+		<li>Communication</li>
+		<li>Barman</li>
+	</ul>
+	       	<hr />
+	        <h3>Volunteer for "La Pourdière"</h3>
+	        <p>Concert hall : <strong>"La Pourdière"</strong> in Belfort - FR<br />
+			7 years ongoing > <a href="http://www.poudriere.com" target="_blank" >www.poudriere.com</a>
+	<ul class="enumLoisirs">	
+		<li>Communication</li>
+		<li>Barman</li>
+		<li>Web development (from 2004 to 2011) </li>
+	</ul>
+	       	<hr />
+	       	<h3>Volunteer "Les Eurockéennes" festival</h3>
+	        <p>Run manager during the music festival <strong>Les Eurockéennes 2013</strong> in Belfort - FR<br />
+	           planning and management for artistic runs</p>
+	       	<hr />
+	        <h3>Musician</h3>
+	        <p><strong>Electric Guitar</strong> : 3 LP recorded + touring in France, Switzerland, England, Spain from 1994 to 2008<br />
+	           <strong>Piano</strong> : classical and jazz studied in the conservatory of Montbéliard - since 2008<br />
+	           <strong>Solfège</strong> : studied in the conservatory of Montbéliard - from 2008 to 2012</p>
+	       	<hr />
+		</aside>
+	</article>
+ </section>
+<div id="trContact"></div>
+  <!--CONTACT ##########################-->
+<section id="contact">
+	<article>
+		<h2>Contact</h2>
+		<aside itemscope itemtype="http://schema.org/Person">
+			<h3 itemprop="name">Laurent KHOUDJA</h3>
+			<p>
+				<img src="http://www.khoudj.com/cv/img/laurent_khoudja.jpg" itemprop="image"  alt="Laurent KHOUDJA" style="display:none"/>
+				<strong>Birth</strong> : <meta itemprop="birthDate" content="1974-03-19">March 19th, 1974, France, <span itemprop="nationality">French</span><br />
+				<strong>Full clean driving license </strong> : Cars and bikes<br />
+				<strong>Current</strong> : <span itemprop="affiliation">Produits et Services Multimédia (Master's degree in multimedia)</span> at <strong itemscope itemtype="http://schema.org/EducationalOrganization">
+<a itemprop="url" href="http://stgi.univ-fcomte.fr/"><span itemprop="name">UFR STGI, University of Franche-Comté</span></a></strong><br/>
+				<strong>French</strong> : native language<br/>
+				<strong>English</strong> : upper intermediate
+			</p>
+			<hr />
+			<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+				<span itemprop="streetAddress">69 bis, rue de Belfort</span><br />
+				<span itemprop="postalCode">25200</span> <span itemprop="addressLocality">Montbéliard</span><br />
+				<span itemprop="addressCountry">France</span>
+			</p>
+			<hr />
+			<p>
+				<strong>Email</strong> : <span itemprop="email">laurentkh[at]gmail.com</span><br />
+				<strong>Phone</strong> : <span itemprop="telephone"><a href="tel:+33688373546">+33 6 88 37 35 46</a></span><br />
+
+			</p>
+			<hr />
+			<p> 
+				<strong>Personal website</strong> : www.khoudj.com<br />
+				<strong>Résumé</strong> : www.doyoubuzz.com/laurent-khoudja_1<br />
+				<strong>LinkedIn</strong> : http://www.linkedin.com/pub/khoudja-laurent/1b/577/530</p> 
+	       	<hr />
+		</aside>
+		<aside id="photo"><img src="img/laurent_khoudja.jpg" alt="Laurent Khoudja"/></aside>
+	</article>
+ </section>
+ <div id="trFooter">
+ 	<h2>2014 - Laurent KHOUDJA</h2>
+		<p><span class="red small">★</span> Photos taken at <a href="http://lemoloco.com/" target="_blank">Le Moloco</a> <span class="red small">★</span> Decoration <strong>Axelle PHILIPPS</strong> <a href="http://www.plumerlechat.com" target="_blank">Plume le Chat</a> <span class="red small">★</span>
+		</p>
+</div>
+ <footer id="footer">
+		
+ </footer>
+</body>
+</html>

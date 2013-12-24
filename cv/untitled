@@ -1,0 +1,59 @@
+		<aside class="line">
+	       	<h3>Programmation</h3>
+	        <ul>
+	        	<li>JAVA</li>
+	        	<li>PHP Objet</li>
+	        	<li>Objective-C / IOS 7</li>
+	        	<li>Javascript</li>
+	        	<li>Processing</li>
+				<li>AS3</li>
+			</ul>
+		</aside>
+		<aside class="line">
+	       	<h3>Développement mobile</h3>
+	        <ul>
+	        	<li>Natif IOS 7</li>
+	        	<li>Natif ANDROID</li>
+	        	<li>cross-plateforme Cordova (PhoneGap)</li>
+	        	<li>Appcelerator Titanium</li>
+	        	<li>JQuery Mobil</li>
+
+			    
+			</ul>
+		</aside>
+		<aside class="line">
+	       	<h3>3DS Max</h3>
+	        <ul>
+	        	<li>Modélisation</li>
+				<li>Texturage</li>
+				<li>Éclairage</li>
+				<li>Rigging / skinning</li>
+				<li>Animation </li>
+			</ul>
+		</aside>
+
+
+		<aside class="line">
+	       	<h3>API</h3>
+	        <ul>
+	        	<li>Facebook</li>
+	        	<li>Twitter</li>
+	        	<li>LastFM</li>
+	        	<li>Web-Services</li>
+			</ul>
+		</aside>
+		<aside class="line">
+	       	<h3>PAO</h3>
+	        <ul>
+	        	<li>Photoshop</li>
+	        	<li>Illustrator</li>
+	        	<li>InDesign</li>
+			</ul>
+		</aside>
+		<aside class="line">
+	       	<h3>Versionning</h3>
+	        <ul>
+	        	<li>GIT</li>
+	        	<li>GitHub</li>
+			</ul>
+		</aside>

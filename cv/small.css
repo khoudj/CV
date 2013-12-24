@@ -1,0 +1,354 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#transitionAccueil{
+    position: relative;
+    height: 145px;
+    background:transparent url(img/transitionHaut.png) left top no-repeat;
+    margin-top: -90px;
+    margin-bottom: -80px;
+
+}
+#transitionExperienceH{
+    position: relative;
+    height: 145px;
+    background:transparent url(img/transitionBasSym.png) top left no-repeat;
+    background-position:100%;
+    margin-top: 0;
+    margin-bottom: -68px;
+    z-index: 500;
+
+}
+#transitionExperienceB{
+    position: relative;
+    height: 145px;
+    background:transparent url(img/transitionHaut.png) top left no-repeat;
+    background-position:100%;
+    margin-top: -145px;
+    margin-bottom: 0px;
+
+}
+#transitionCompetence{
+    position: relative;
+    height: 145px;
+    background:transparent url(img/transitionBasSym.png) top left no-repeat;
+    background-position:100%;
+    margin-top: -70px;
+    margin-bottom: -70px;
+
+}
+#trContact{
+    position: relative;
+    height: 145px;
+    background:transparent url(img/trContact.png) top left no-repeat;
+    background-position:100%;
+    margin-top: -90px;
+    margin-bottom: -40px;
+}
+#trFooter{
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    background:url(texture.jpg);
+    background-color:black;
+
+}
+
+/************** MENU **************/
+#nav{
+        list-style: none;
+        position: fixed;
+        left: 5px;
+        top: 5px;
+        z-index: 5000;
+}
+
+h1#menuName{
+        position: relative;
+        background-color: rgba(200, 50, 0, 1);
+		width: 150px;
+        height: 40px;
+        line-height:40px;
+        text-align: center;
+        color:white;
+        font-family: 'Wire One', sans-serif;
+		font-size: 2em;
+        font-weight:100;
+        font-style:normal;
+        padding:0;
+        margin:0;
+}
+h1#menuName a{
+	text-decoration: none;
+    color:white;
+    }
+ul#menuContent{
+	    position: relative;
+		width:150px;
+		list-style-type: none;
+
+}
+ul#menuContent li{
+	    position: relative;
+		background-color: rgba(0, 0, 0, 0.9);
+		margin-top:5px;
+}
+ul#menuContent li a{
+	    display: block;
+		height: 30px;
+		line-height: 30px;
+		font-family: 'helvetica_neue_lt_std37ThCn';
+        font-weight:100;
+        font-size: 1em;
+        font-style:normal;
+        padding-left:32px;
+        margin:0;
+        color:silver;
+        text-decoration:none;
+
+
+}
+ul#menuContent li a:hover{
+		color:white;
+		background-color: rgba(200, 50, 0, 0.7);
+
+}
+#titre{
+        position:relative;
+        font-family: 'helvetica_neue_lt_std37ThCn';
+        font-weight:500;
+        font-size: 1.1em;
+        font-style:normal;
+        padding:0;
+        margin:0;
+        color: white;
+        letter-spacing: 0.05em;
+        top:13px;
+        padding-left:170px;
+        text-shadow:0px 0px 5px #000
+
+}
+/************** ACCUEIL **************/
+#intro{
+        width: 100%;
+        background:black url(img/accueil.jpg) center 0 no-repeat fixed;
+        color: white;
+        height: 650px;
+        margin: 0 auto;
+        padding: 0;
+		box-sizing:border-box;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+
+}
+/************** FORMATION **************/
+#formations{
+       
+       /* background: url(formations.jpg) 50% 0 no-repeat fixed; */
+        background:transparent url(img/fondGris.png);
+        color: white;
+        height: 600px;
+        margin: 0 auto;
+        overflow: hidden;
+        padding:0;
+        box-sizing:border-box;
+}
+article{
+	position:relative;
+	left:170px;
+	top:50px;
+	box-sizing:border-box;
+	width: 320px;
+	
+}
+article h2{
+		position: relative;
+		color: rgba(200, 50, 0, 1);
+        font-family: 'Wire One', sans-serif;
+		font-size: 2em;
+        font-weight:900;
+        font-style:normal;
+        margin:0 0 -8px 0;
+        padding:0;
+        z-index: 10000;
+        letter-spacing: 0.02em;
+}
+article h3{
+        font-family: 'helvetica_neue_lt_std37ThCn';
+        font-weight:100;
+        font-size: 1.1em;
+        font-style:normal;
+        margin:0 0 3px 0;
+        color:white;
+        letter-spacing: 0.02em;
+}
+
+article p{
+	margin-bottom: 15px;
+    font-size: 0.9em;
+}
+hr{
+	margin: 20px 0 15px 0;
+	border-top: 1px solid rgba(200, 50, 0, 0.2);
+    border-bottom:none;
+    border-left:none;
+    border-right:none;
+	clear: both;
+    height: 1px;
+}
+.red{color:rgba(200, 50, 0, 0.9);}
+.small{
+	font-size: 0.8em !important;
+}
+.left{ 
+	position: relative;
+	width: 285px;
+	box-sizing:border-box;
+	margin:0 20px 0 0;
+    overflow: visible;
+    z-index:5000;
+}
+.right{ 
+	position: relative;
+	width: 285px;
+	box-sizing:border-box;
+	margin:0 20px 0 0;
+    overflow: visible;
+    z-index:5000;
+}
+.left ul,.right ul{
+	margin:0px 0 10px 0;
+}
+/************** EXPERIENCE **************/
+#experiences{
+        position: relative;
+        background: url(img/experiences.jpg) 50% 0 no-repeat fixed;
+        color: white;
+        height: 1100px;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 0;
+        -webkit-background-size: cover; /* pour Chrome et Safari */
+        -moz-background-size: cover; /* pour Firefox */
+        -o-background-size: cover; /* pour Opera */
+        background-size: cover; /* version standardisée */
+        box-sizing:border-box;
+
+}
+
+aside{
+	box-sizing:border-box;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding:20px 10px 10px 20px;
+	margin:0 0 10px 0;
+}
+aside ul li{
+	    font-family: 'helvetica_neue_lt_std37ThCn';
+        font-weight:100;
+        font-size: 0.8em;
+        font-style:normal;
+        padding:0;
+        margin:0;
+        color:silver;
+        margin:0 0 0 20px;
+
+}
+
+/************** COMPETENCES **************/
+#competences{
+        background:transparent url(img/fondGris.png);
+        color: white;
+        height: 1320px;
+        margin: 0 auto;
+        /*overflow: hidden;*/
+        padding: 0;
+        -webkit-background-size: cover; /* pour Chrome et Safari */
+ 		-moz-background-size: cover; /* pour Firefox */
+  		-o-background-size: cover; /* pour Opera */
+  		background-size: cover; /* version standardisée */
+
+
+}
+/************** LOISIRS **************/
+#loisirs{
+        background: url(img/loisirs.jpg) 50% 0 no-repeat fixed;
+        color: white;
+        height: 1200px;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 0;
+        -webkit-background-size: cover; /* pour Chrome et Safari */
+ 		-moz-background-size: cover; /* pour Firefox */
+  		-o-background-size: cover; /* pour Opera */
+  		background-size: cover; /* version standardisée */
+        box-sizing:border-box;
+}
+
+/************** CONTACT **************/
+#contact{
+        background: url(img/contact.jpg) left 0 no-repeat fixed;
+        color: white;
+        height: 1200px;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 0;
+        -webkit-background-size: cover; /* pour Chrome et Safari */
+ 		-moz-background-size: cover; /* pour Firefox */
+  		-o-background-size: cover; /* pour Opera */
+  		background-size: cover; /* version standardisée */
+        box-sizing:border-box;
+
+
+}
+#footer{
+        background-color:black;
+        color: white;
+        height: 0px;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 0;
+        position: relative;
+
+        
+
+         }
+#trFooter h2{
+    display:inline;
+    color:silver;
+    font-family: 'Wire One', sans-serif;
+    font-size: 1.2em;
+    font-weight:100;
+    font-style:normal;
+    left:10px;
+    position: relative;
+    margin-right:10px;
+    padding: 0;
+
+}
+#trFooter p{
+
+    top:0px;
+    display:inline;
+    color:grey;
+    font-family: 'Wire One', sans-serif;
+    font-size: 1em;
+    font-weight:100;
+    font-style:normal;
+    margin:0 0 0 5px;
+    letter-spacing: 0.08em;
+    position: relative;
+
+}
+#trFooter p a{
+    text-decoration: none;
+    color:grey;
+}
+#trFooter p a:hover{
+    text-decoration: none;
+    color:rgba(200, 50, 0, 0.8);;
+}
+
