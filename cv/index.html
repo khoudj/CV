@@ -18,50 +18,19 @@
 
 <link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="script/script.js"></script>
 <script type="text/javascript">
-function phone(){
-	if($(window).width()<500){
-			$( "#nav" ).click(function() {
-				$( "li" ).first().toggle( "fast", function showNext() {
-				$( this ).next( "li" ).toggle( "fast", showNext );
-				});
-			});
+	$(document).ready(function(){
+		//alert($(window).width()+' '+$(window).height());
+		fenetre();
+		phone();
+		
+	}); // fin $(document).ready(function()
 
-			$("#photo").show();
-			$("#menu").show();
-	}else{
-			$("#photo").hide();
-			$("#menu").hide();
-	}
-}
-$(document).ready(function(){
-	//alert($(window).width()+' '+$(window).height());
-	$('#fenetre').css('visibility','visible');
-	$( "#fenetre" ).animate({
-	top: 0,
-	height: "toggle"}, 1000, function() {
-		return true;
-		});
-
-
-		$('a[href^="#"]').click(function(){  
-    	var the_id = $(this).attr("href");
-    	//var the_menu = $(this).parent().css("background-color", "red" ); 
-   	 	$('html, body').animate({  
-    	    scrollTop:$(the_id).offset().top  
-    	}, 'slow');  
-    	return false; 
-	}); 
-	phone();
-	
-}); // fin $(document).ready(function()
-
-$(window).resize(function() {
-        phone();
-        if($(window).width()<500){	$($("ul#menuContent li")).hide(); }
-        //console.log("recharge")
-        //console.log($(window).width()+' '+$(window).height())
-});
+	$(window).resize(function() {
+	        phone();
+	        if($(window).width()<500){	$($("ul#menuContent li")).hide(); }
+	});
 </script>
 </head>
 
