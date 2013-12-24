@@ -174,7 +174,7 @@ article h2{
         font-style:normal;
         margin:0 0 -10px 0;
         padding:0;
-        z-index: 1000;
+        z-index: 200000;
         letter-spacing: 0.02em;
 }
 article h3{

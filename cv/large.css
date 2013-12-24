@@ -209,7 +209,7 @@ article h2{
         font-style:normal;
         margin:0 0 -10px 0;
         padding:0;
-        z-index: 1000;
+        z-index: 200000;
         letter-spacing: 0.02em;
 }
 article h3{
@@ -261,7 +261,7 @@ hr{
         position: relative;
         background: url(img/experiences.jpg) 50% 0 no-repeat fixed;
         color: white;
-        height: 1100px;
+        height: 1200px;
         margin: 0 auto;
         overflow: hidden;
         padding: 0;
@@ -309,7 +309,7 @@ aside ul li{
 #loisirs{
         background: url(img/loisirs.jpg) 50% 0 no-repeat fixed;
         color: white;
-        height: 1300px;
+        height: 1400px;
         margin: 0 auto;
         overflow: hidden;
         padding: 0;
