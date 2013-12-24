@@ -122,11 +122,11 @@ ul#menuContent li{
 }
 ul#menuContent li a{
 	    display: block;
-		height: 50px;
-		line-height: 50px;
+		height: 35px;
+		line-height: 35px;
 		font-family: 'helvetica_neue_lt_std37ThCn';
         font-weight:100;
-        font-size: 1.5em;
+        font-size: 1.2em;
         font-style:normal;
         padding-left:10px;
         color:silver;
