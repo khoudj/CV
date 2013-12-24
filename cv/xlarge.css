@@ -178,7 +178,7 @@ ul#menuContent li a:hover{
        /* background: url(formations.jpg) 50% 0 no-repeat fixed; */
         background:transparent url(img/fondGris.png);
         color: white;
-        height: 700px;
+        height: 730px;
         margin: 0 auto;
         overflow: hidden;
         padding:0;
@@ -301,7 +301,7 @@ aside ul li{
 #loisirs{
         background: url(img/loisirs.jpg) 50% 0 no-repeat fixed;
         color: white;
-        height: 1500px;
+        height: 1630px;
         margin: 0 auto;
         overflow: hidden;
         padding: 0;

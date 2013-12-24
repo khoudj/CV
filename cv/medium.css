@@ -151,7 +151,7 @@ ul#menuContent li a:hover{
        /* background: url(formations.jpg) 50% 0 no-repeat fixed; */
         background:transparent url(img/fondGris.png);
         color: white;
-        height: 600px;
+        height: 630px;
         margin: 0 auto;
         overflow: hidden;
         padding:0;
@@ -172,7 +172,7 @@ article h2{
 		font-size: 2.5em;
         font-weight:900;
         font-style:normal;
-        margin:0 0 -10px 0;
+        margin:0 0 -9px 0;
         padding:0;
         z-index: 200000;
         letter-spacing: 0.02em;
@@ -191,7 +191,7 @@ article p{
 	margin-bottom: 20px;
 }
 hr{
-	margin: 20px 0 20px 0;
+	margin: 6px 0 15px 0;
 	border-top: 1px solid rgba(200, 50, 0, 0.2);
     border-bottom:none;
     border-left:none;
@@ -274,7 +274,7 @@ aside ul li{
 #loisirs{
         background: url(img/loisirs.jpg) 50% 0 no-repeat fixed;
         color: white;
-        height: 1200px;
+        height: 1260px;
         margin: 0 auto;
         overflow: hidden;
         padding: 0;
