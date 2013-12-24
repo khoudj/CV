@@ -161,6 +161,7 @@ aside{
 	background-color: rgba(0, 0, 0, 0.8);
 	padding:20px 10px 10px 20px;
 	margin:0 0 10px 0;
+    z-index: 20000;
 }
 aside ul li{
 	    font-family: 'helvetica_neue_lt_std37ThCn';

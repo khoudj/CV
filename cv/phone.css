@@ -34,8 +34,8 @@
     height: 145px;
     background:transparent url(img/transitionBasSym.png) top left no-repeat;
     background-position:100%;
-    margin-top: -70px;
-    margin-bottom: -70px;
+    margin-top: -90px;
+    margin-bottom: -30px;
 
 }
 #trContact{
@@ -163,7 +163,7 @@ ul#menuContent li a:hover{
 
         background:transparent url(img/fondGris.png);
         color: white;
-        height: 600px;
+        height: 650px;
         overflow: hidden;
         padding:0;
         box-sizing:border-box;
@@ -249,10 +249,12 @@ hr{
 }
 
 aside{
+    position: relative;
 	box-sizing:border-box;
 	background-color: rgba(0, 0, 0, 0.8);
-	padding:20px 10px 10px 20px;
+	padding:20px 10px 20px 20px;
 	margin:0 0 10px 0;
+    z-index: 4000;
 }
 aside h3{
     font-family: 'helvetica_neue_lt_std37ThCn';
@@ -280,7 +282,7 @@ aside ul li{
 #competences{
         background:transparent url(img/fondGris.png);
         color: white;
-        height: 1820px;
+        height: 1200px;
         margin: 0 auto;
         padding: 0;
 
@@ -290,7 +292,7 @@ aside ul li{
 #loisirs{
         background-color:grey;
         color: white;
-        height: 1600px;
+        height: 1200px;
         margin: 0 auto;
         overflow: hidden;
         padding: 0;
@@ -315,10 +317,8 @@ aside ul li{
         overflow: hidden;
         padding: 0;
 }
-#photo{
-    position:relative;
-}
-#photo img{ 
+
+#photo { 
     position: relative;
     width: 100%;
 
