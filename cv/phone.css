@@ -163,7 +163,7 @@ ul#menuContent li a:hover{
 
         background:transparent url(img/fondGris.png);
         color: white;
-        height: 650px;
+        height: 620px;
         overflow: hidden;
         padding:0;
         box-sizing:border-box;
@@ -238,7 +238,7 @@ hr{
         width: 100%;
         background-color: rgba(40, 20, 20, 1);
         color: white;
-        height: 1000px;
+        height: 1150px;
         margin: 0 auto;
         padding: 0;
          -webkit-background-size: 100% auto;
@@ -292,7 +292,7 @@ aside ul li{
 #loisirs{
         background-color:grey;
         color: white;
-        height: 1200px;
+        height: 1300px;
         margin: 0 auto;
         overflow: hidden;
         padding: 0;
@@ -312,7 +312,7 @@ aside ul li{
         -o-background-size: auto;
         background-size: auto;
         color: white;
-        height: 1200px;
+        height: 1000px;
         margin: 0 auto;
         overflow: hidden;
         padding: 0;
