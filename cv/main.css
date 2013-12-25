@@ -29,6 +29,9 @@ p{
         color:silver;
         letter-spacing: 0.05em;
 }
+.range{
+    font-size: 0.8em;
+}
 #fenetre{
     height: 100%;
     width: 100%;
