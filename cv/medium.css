@@ -4,13 +4,15 @@
 
 #transitionAccueil{
     position: relative;
-    height: 145px;
+    height: 144px;
     background:transparent url(img/transitionHaut.png) left top no-repeat;
-    margin-top: -90px;
-    margin-bottom: -80px;
+    margin-top: -75px;
+    margin-bottom: -69px;
+
 
 }
 #transitionExperienceH{
+
     position: relative;
     height: 145px;
     background:transparent url(img/transitionBasSym.png) top left no-repeat;
@@ -25,8 +27,9 @@
     height: 145px;
     background:transparent url(img/transitionHaut.png) top left no-repeat;
     background-position:100%;
-    margin-top: -145px;
-    margin-bottom: 0px;
+    margin-top: -143px;
+    margin-bottom: -3px;
+
 
 }
 #transitionCompetence{
@@ -36,6 +39,7 @@
     background-position:100%;
     margin-top: -70px;
     margin-bottom: -70px;
+
 
 }
 #trContact{

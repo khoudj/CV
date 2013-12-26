@@ -6,8 +6,8 @@
     position: relative;
     height: 145px;
     background:transparent url(img/transitionHaut.png) left top no-repeat;
-    margin-top: -90px;
-    margin-bottom: -80px;
+    margin-top: -85px;
+    margin-bottom: -70px;
 
 }
 #transitionExperienceH{
@@ -25,8 +25,8 @@
     height: 145px;
     background:transparent url(img/transitionHaut.png) top left no-repeat;
     background-position:100%;
-    margin-top: -145px;
-    margin-bottom: 0px;
+    margin-top: -144px;
+    margin-bottom: -1px;
 
 }
 #transitionCompetence{
