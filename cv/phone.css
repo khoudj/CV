@@ -145,16 +145,18 @@ ul#menuContent li a:hover{
 
 #intro{
         width: 100%;
-        background:black url(img/accueil.jpg) 75% 0 no-repeat fixed;
+        background:black url(img/accueil-mob.jpg) 50% 0 no-repeat fixed;
         color: white;
         height: 650px;
         margin: 0 auto;
         padding: 0;
-        -webkit-background-size: 270% auto;
-        -moz-background-size: 270% auto;
-        -ms-background-size: 270% auto;
-        -o-background-size: 270% auto;
-        background-size: 270% auto;
+        /*
+       -webkit-background-size: auto;
+        -moz-background-size: auto;
+        -ms-background-size: auto;
+        -o-background-size: auto;
+        background-size: auto;*/
+        
 
 }
 /************** FORMATION **************/
