@@ -14,9 +14,8 @@
 		<meta itemprop="image" content="http://www.khoudj.com/cv/img/laurent_khoudja.jpg">
 		<meta itemprop="description" content="Master's degree in multimedia - UFR STGI - Montbéliard (FR)">
 		<meta itemprop="nationality" content="Française">
-		<a href="cv/" id="lk">
-		<img src="lk.png" alt="Laurent KHOUDJA" width="246" height="288" />
-	</a>
+		<a href="cv/" id="l"><img src="l.png" alt="Laurent" width="246" height="288"/></a>
+		<a href="cv/" id="k"><img src="k.png" alt="Laurent" width="246" height="288"/></a>
 		<a href="cv/" id="link"><span class="star">★</span> <span itemprop="name">Laurent KHOUDJA</span> <span class="star">★</span>
 		</a>
 		<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
@@ -27,16 +26,53 @@
 	</div>
 	<script type="text/javascript">
 	
+	
 	$( "#link" ).remove();
+
+
+
 	$("p").before("<a href='#' id='link'><span class='star'>★</span> Laurent KHOUDJA <span class='star'>★</span></a>");
+	var limitL = $(window).width()/1.75;
+	var limitR = $(window).width()/1.95;
+	var limitH = $(window).height()/2;
 	  $( "a" ).click(function() {
-			$( "div" ).animate({
-			top: 0,
-			height: "toggle"
-			}, 1000, function() {
-			window.location='cv/';
+
+			$( "#l" ).animate({
+				"margin-left": -limitR+"px",
+				//height: "-300px"
+				}, 1000, function() {
+				$( "#l" ).remove();
+				window.location='cv/'
 			});
+			$( "#k" ).animate({
+				"margin-left": limitL+"px",
+				//height: "-300px"
+				}, 1000, function() {
+				$( "#k" ).remove();
+				window.location='cv/'
+			});
+			$( "#link" ).animate({
+				"margin-top": limitH+100+"px",
+				//height: "-300px"
+				}, 1000, function() {
+					$( "div" ).toggle();
+					window.location='cv/'
+			});
+
+
 		});
+	$( "#l" ).css("margin-left",limitL);
+	$( "#k" ).css("margin-left",-limitR);
+	$( "#l" ).animate({
+			"margin-left": "30px"
+			}, 1000, function() {
+				return true;
+			});
+	$( "#k" ).animate({
+			"margin-left": "40px"
+			}, 1000, function() {
+				return true;
+			});
 
  </script>
 </body>

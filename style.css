@@ -23,18 +23,22 @@ div{
 	padding: 0;
 	text-align: center;
 }
-img{
-	left: 50%;
-	top: 50%;
-}
-a#lk{
-	background-color: transparent;
+
+a#l,a#k{
+	display: block;
 	border: none;
+	height: 288px;
+	width: 246px;
+	margin-left:auto;
+	margin-right:auto;
+}
+a#k{
+	margin-top: -288px;
 }
 a#link{
+	position: relative;
 	margin-top: 30px;
 	display: block;
-	position: relative;
 	text-decoration: none;
 	background-color: rgba(200, 50, 0, 0.98);
 	text-align: center;
@@ -45,6 +49,8 @@ a#link{
     font-style:normal;
     border-top: 2px solid black;
 	border-bottom: 2px solid black;
+	height: 70px;
+	line-height: 70px;
 
 }
 a#link:hover{
