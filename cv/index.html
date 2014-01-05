@@ -20,11 +20,26 @@
 <link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script type="text/javascript" src="script/script.js"></script>
+<script type="text/javascript" src="script/hachchange.js"></script>
 <script type="text/javascript">
 	$(document).ready(function(){
 		//alert($(window).width()+' '+$(window).height());
 		fenetre();
 		phone();
+
+if ("onhashchange" in window) {
+    console.log("The browser supports the hashchange event!");
+}
+
+function locationHashChanged() {
+    if (location.hash === "#somecoolfeature") {
+        somecoolfeature();
+    }
+}
+
+window.onhashchange = locationHashChanged;
+
+
 	}); // fin $(document).ready(function()
 
 	$(window).resize(function() {
@@ -341,5 +356,6 @@
  <footer id="footer">
 		
  </footer>
+
 </body>
 </html>

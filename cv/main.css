@@ -52,6 +52,7 @@ p{
         letter-spacing: 0.05em;
         top:53px;
         text-shadow:0px 0px 5px #000;
+        z-index: 20000;
 }
 strong{
     font-weight:900;
@@ -239,5 +240,9 @@ aside ul li{
 img#lk{
     position: relative;
     top:8px;
+}
+
+.active{
+    background-color: red;
 }
 
