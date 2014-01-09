@@ -33,7 +33,12 @@
 	}); // fin $(document).ready(function()
 
 	$(window).resize(function() {
-			phone();
+		phone();
+		competences = $("#competences").offset().top;
+		experiences = $("#experiences").offset().top;
+		formations = $("#formations").offset().top;
+		loisirs = $("#loisirs").offset().top;
+		contact = $("#contact").offset().top;
 	});
 	
 	$(function () {
