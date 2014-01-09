@@ -30,12 +30,11 @@
 
 }
 #transitionCompetence{
-    position: relative;
+    background: url("img/transitionBasSym.png") no-repeat scroll 100% center rgba(0, 0, 0, 0);
     height: 145px;
-    background:transparent url(img/transitionBasSym.png) top left no-repeat;
-    background-position:100%;
-    margin-top: 0px;
-    margin-bottom: -143px;
+    margin-bottom: -134px;
+    position: relative;
+    z-index: 1000;
 
 }
 #trContact{
@@ -157,9 +156,10 @@ ul#menuContent li a:hover{
 
 }
 /************** ACCUEIL **************/
+
 #intro{
         width: 100%;
-        background:black url(img/accueil.jpg) center -190px no-repeat fixed;
+        background:black url(img/accueil.jpg) center 100% no-repeat fixed;
         color: white;
         height: 900px;
         margin: 0 auto;

@@ -37,7 +37,7 @@ p{
     width: 100%;
     position: absolute;
     background:rgba(50, 30, 0, 0.9) url(img/fond.png) top center repeat;
-    z-index: 20000;
+    z-index: 25000;
     visibility: hidden;
 }
 #titre{

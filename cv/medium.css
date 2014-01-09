@@ -39,6 +39,7 @@
     background-position:100%;
     margin-top: -70px;
     margin-bottom: -70px;
+     z-index: 1000;
 
 
 }

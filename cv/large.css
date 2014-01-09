@@ -36,6 +36,7 @@
     background-position:100%;
     margin-top: -1px;
     margin-bottom: -144px;
+    z-index: 1000;
 
 }
 #trContact{
