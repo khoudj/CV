@@ -25,13 +25,20 @@
 		//alert($(window).width()+' '+$(window).height());
 		fenetre();
 		phone();
-		
+		competences = $("#competences").offset().top;
+		experiences = $("#experiences").offset().top;
+		formations = $("#formations").offset().top;
+		loisirs = $("#loisirs").offset().top;
+		contact = $("#contact").offset().top;
 	}); // fin $(document).ready(function()
 
 	$(window).resize(function() {
 			phone();
-			if($(window).width()<500){	$($("ul#menuContent li")).hide(); }
 	});
+	
+	$(function () {
+			scrollNav();
+         });
 </script>
 </head>
 

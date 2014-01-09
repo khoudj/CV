@@ -31,3 +31,27 @@ $('#fenetre').css('visibility','visible');
     	return false; 
 	}); 
 }
+
+function activeMenu(menu){
+	$("#menuCompetences").removeClass('active');
+    $("#menuExperiences").removeClass('active'); 
+    $("#menuFormations").removeClass('active');
+    $("#menuLoisirs").removeClass('active');
+    $("#menuContact").removeClass('active'); 
+    $(menu).addClass('active');
+}
+
+function scrollNav(){
+	var $win = $(window);
+             $win.scroll(function () {
+             	var top = $win.scrollTop();
+             	 if (top < competences) activeMenu('none');
+                 else if (top >= competences && top < experiences) activeMenu('#menuCompetences'); 
+                 else if (top >= experiences && top < formations) activeMenu('#menuExperiences'); 
+                 else if (top >= formations && top < loisirs) activeMenu('#menuFormations');  
+                 else if (top >= loisirs && top < contact) activeMenu('#menuLoisirs'); 
+                 else if (top >= contact) activeMenu('#menuContact'); 
+                 else activeMenu('none');
+
+             });
+}

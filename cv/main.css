@@ -115,9 +115,9 @@ ul#menuContent li a:hover{
 		background-color: rgba(200, 50, 0, 0.7);
         border-left: 5px solid red;
 }
-ul#menuContent li a:active{     
-        color:white;
-        background-color: rgba(200, 50, 0, 0.7);
+.active{    
+        color:white!important;
+        background-color: rgba(200, 50, 0, 0.8)!important;
         border-left: 5px solid red;
 }
 
